@@ -1,0 +1,16 @@
+<section id="events"></section>
+        <div class="card-container"> 
+          <div class="empty_div">
+            <div class="event_card">
+              <img src="./Frontend/data/img/operation-grot-title.png" />
+              <img src="./Frontend/data/img/tlo-operation-grot-2.png" />
+              <h4 style="color: #ffffff;">Start: 08/08/2023</h4>
+              <h4 style="color: #ffffff;">Koniec:  11/08/2023</h4>
+              <h4 style="color: #ffffff;">Organizacja: Stowarzyszenie Lotnictwa</h4>
+            <h4 class="locationOnline">Adres do wprowadzenia</h4>
+            <a href="https://youareidiot.pl/events/operacia-grot.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary link">
+              <h5 style="color: #000000;">More Info</h5>
+            </a>
+          </div>
+        </div>
+      </div>
