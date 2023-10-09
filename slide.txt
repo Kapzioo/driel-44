@@ -1,0 +1,2 @@
+<img class="mySlides w3-animate-right" src="./Frontend/data/img/tlo-1.png" style="left: 0px; right: 0px; top: 40px; bottom: center; position: absolute; border-radius: 15px;"/>
+  <img class="mySlides w3-animate-right" src="./Frontend/data/img/tlo-2.png" style="left: 0px; right: 0px; top: 40px; bottom: center; position: absolute; border-radius: 15px;">

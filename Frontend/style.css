@@ -151,6 +151,31 @@ html {
   position: absolute;
 }
 
+.title {
+  margin-top: 20vh;
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bolder;
+  font-weight: 400;
+  font-size: 104px;
+  color: #ecefef;
+  text-shadow:
+      0 0 8px #ff0000,
+      0 0 10px #ff0000,
+      0 0 21px #ff0000,
+      0 0 42px #ff0000;
+  text-align: center;
+}
+
+.title-2 {
+  margin-top: 20vh;
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bolder;
+  font-weight: 200;
+  font-size: 52px;
+  color: #ecefef;
+  text-align: center;
+}
+
 .tlo {
   display: block;
   background-image: url("./data/img/tlo-1.png");
@@ -584,26 +609,20 @@ footer {
 }
 
 #ramka-buy {
-  position:relative;
-  width:1720px;
-  height:1980px;
-  margin:0 auto;
+  position: relative;
+  text-align: center;
+  margin: 100px auto;
+  width:960px;
+  height:540px;
   border-radius: 20px;
   border:1px solid #000;
   background-image: url("./data/img/Tlo-4K.png");
 }
 
-#ramka-buy span {
-  display:block;
-  padding:15px;
-  background-color: #000000;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  filter: opacity(0.75);
-  position: absolute;
-  width:1720px;
-  top: 0;
-  left: 0;
+#ramka-img {
+  position: relative;
+  text-align: center;
+  margin-top: 50px auto;
 }
 
 #ramka-buy h6 {
