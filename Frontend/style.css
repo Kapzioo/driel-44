@@ -156,14 +156,14 @@ html {
   font-family: 'Courier New', Courier, monospace; 
   font-weight: bolder;
   font-weight: 400;
-  font-size: 104px;
+  font-size: 52px;
   color: #ecefef;
   text-shadow:
       0 0 8px #ff0000,
       0 0 10px #ff0000,
       0 0 21px #ff0000,
       0 0 42px #ff0000;
-  text-align: center;
+  text-align: left;
 }
 
 .title-2 {
