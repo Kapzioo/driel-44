@@ -176,6 +176,49 @@ html {
   text-align: center;
 }
 
+.w3-animate-fading{animation:fading 90s infinite}
+@keyframes fading{0%{opacity:0}10%{opacity:1}100%{opacity:0}}
+
+.w3-animate-right{position:relative;animation:animateright 10s}
+@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+#slider {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+  
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+}
+  
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+  0% { -webkit-transform: translateX(0%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+
 .tlo {
   display: block;
   background-image: url("./data/img/tlo-1.png");
@@ -197,19 +240,9 @@ html {
   background-image: url("./data/img/tlo-1.png");
 }
 
-.w3-animate-right{ 
-  position: relative;
-  transition: 60s;
-  animation: animateright 2s
-}
-
 @keyframes animateright {
   from { right: -300px; opacity: 0 }
   to { right: 0; opacity: 1 }
-}
-
-.mySlides {
-  display:none;
 }
 
 .custom-control-input {
