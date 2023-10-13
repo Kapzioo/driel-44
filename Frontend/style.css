@@ -71,6 +71,58 @@ html {
   z-index: 11;
 }
 
+.sec {
+  height: 1080px;
+  width: 1920px;
+}
+
+.arrow {
+  position: fixed; 
+  margin-top: 880px;
+  margin-left: 1820px;
+}
+
+.image {
+
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
+
+h4 {
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace, Bold;
+  font-weight: bolder;
+  text-shadow:
+      0 0 8px #ff0000,
+      0 0 10px #ff0000,
+      0 0 21px #ff0000;
+}
+
+h5 {
+  color: #fff;
+}
+
+h6 {
+  position: static;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
 .social-icons a{
   padding: 8px;
   font-size: 19px;
@@ -173,6 +225,36 @@ html {
   font-weight: 200;
   font-size: 52px;
   color: #ecefef;
+  text-align: center;
+}
+
+.title-3 {
+  position: inherit;
+  margin-top: 20vh;
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bolder;
+  font-weight: 300;
+  font-size: 47px;
+  color: #ecefef;
+  text-shadow:
+      0 0 8px #ff0000,
+      0 0 10px #ff0000,
+      0 0 21px #ff0000,
+      0 0 42px #ff0000;
+}
+
+.title-4 {
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bolder;
+  font-weight: 300;
+  font-size: 47px;
+  color: #ecefef;
+  filter: brightness(200%);
+  text-shadow:
+      0 0 8px #ff0000,
+      0 0 10px #ff0000,
+      0 0 21px #ff0000,
+      0 0 42px #ff0000;
   text-align: center;
 }
 
@@ -540,16 +622,17 @@ footer {
 
 #contact-head {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace; 
   text-transform: uppercase;
-  color: var(--primary-title);
+  color: #ffffff;
   font-weight: 650;
   font-size: 35px;
-  border-bottom: 1.5px solid var(--primary-title);
   padding-bottom: 4px;
 }
 
 #contact-message {
-  color: var(--primary-title);
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace; 
   margin-top: 15px;
   text-align: center;
   font-weight: 500;
@@ -586,7 +669,7 @@ footer {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   filter: opacity(0.75);
-  position: absolute;
+  position: static;
   width:1000px;
   top: 0;
   left: 0;
@@ -635,7 +718,7 @@ footer {
   border-color: none;
   position: absolute;
   width: 250px;
-  top: 600px;
+  top: 640px;
   bottom: auto;
   left: auto;
   right: 375px;
@@ -1048,13 +1131,14 @@ footer {
 }
 
 .navbar {
-  left: 335px; right: 0px; top: 10px; bottom: center; position: absolute;
+  left: 335px; 
+  right: 0px; 
+  top: 25px; 
+  position: absolute;
   width: 100%;
   height: 50px;
   width: 1250px;
   border-radius: 15px;
-  z-index: 1;
-  text-align: center;
   background-image: url("./data/img/Tlo-Full-HD.png");
 }
 /* #paraGraph {

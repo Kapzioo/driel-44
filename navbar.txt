@@ -20,3 +20,31 @@
           </ul>
         </div>
       </nav>
+
+
+
+      <nav class="navbar navbar-light bg-dark navbar-expand-md">
+        <a class="navbar-brand" href="./index.html#aboutUs" style="font-family: 'Courier New', Courier, monospace; font-weight: bolder;">Misja Tajemnica</a>
+        <div class="navbar-nav ml-auto toogle-slider">
+        </div>
+        <div class="collapse navbar-collapse" id="list">
+          <ul class="navbar-nav">
+            <li class="navbar-item">
+              <a href="#aboutUs" class="nav-link">O nas</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#image" class="nav-link">Zdjęcia</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#events" class="nav-link">Wydarzenia</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contactus" class="nav-link">Kontakt</a>
+            </li>
+            <li class="navbar-item">
+              <a href="./rules.html" class="nav-link">Regulamin</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
